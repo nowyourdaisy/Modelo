@@ -1,0 +1,75 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* HEADER */
+.header-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ff5a28;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-btn {
+    border: 2px solid #ff5a28;
+    border-radius: 40px;
+    padding: 12px 40px;
+    font-size: 20px;
+    background: white;
+}
+
+/* 50-50 layout full height */
+.hero-section {
+    height: 100vh;
+}
+
+/* LEFT SIDE */
+.left-content {
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 75px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.hero-desc {
+    font-size: 20px;
+    color: #555;
+    max-width: 90%;
+}
+
+/* RIGHT SIDE — full bleed image */
+.right-image-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100%;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        /* fills the entire right half */
+    object-position: top right;
+    display: block;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 992px) {
+    .hero-section {
+        height: auto;
+    }
+
+    .right-image-container {
+        height: 50vh; /* optional: nice proportion on mobile */
+    }
+}
