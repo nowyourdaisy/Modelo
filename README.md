@@ -5,6 +5,7 @@ This project is a personal portfolio website built using the Laravel framework w
 The system is designed to showcase professional work while providing a simple and user-friendly admin interface for content updates.
 
 🛠️ Technologies Used
+
 Laravel (PHP Framework)
 PHP
 MySQL / MariaDB
@@ -13,6 +14,7 @@ Bootstrap / Tailwind CSS
 HTML, CSS, JavaScript
 
 ✨ Features
+
 Public Portfolio
 Home page with introduction
 About Me section
@@ -28,17 +30,19 @@ Update content dynamically without code changes
 Database-driven content management
 
 👤 User Roles
+
 Admin
 Manages all portfolio content through the CMS
 Visitor
 Views the portfolio website
 
 ⚙️ Installation & Setup
+
 Clone the repository:
-git clone https://github.com/your-username/laravel-portfolio-cms.git
+git clone https://github.com/nowyourdaisy/Modelo.git
 
 Navigate to the project directory:
-cd laravel-portfolio-cms
+cd Modelo-portfolio-cms
 
 Install dependencies:
 composer install
@@ -57,6 +61,7 @@ Start the development server:
 php artisan serve
 
 🗄️ Database Structure
+
 Users (Admin authentication)
 Projects
 Skills
@@ -64,6 +69,7 @@ Experiences
 Portfolio Settings / Profile Information
 
 🎯 Purpose of the Project
+
 The main purpose of this project is to:
 Demonstrate Laravel development skills
 Apply MVC architecture
@@ -71,4 +77,5 @@ Implement a functional CMS
 Create a professional portfolio website suitable for academic or career use
 
 📄 License
+
 This project is for educational and personal portfolio purposes only.
